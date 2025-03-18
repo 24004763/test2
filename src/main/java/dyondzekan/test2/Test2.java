@@ -19,7 +19,11 @@ public class Test2 {
         double f1 = tale.nextDouble();
         System.out.println("Enter the second number: ");
         double f2 = tale.nextDouble();
-        double sum = f1 + f2;
+        System.out.println("Enter the third number: ");
+        double f3 = tale.nextDouble();
+        System.out.println("Enter the fourth number: ");
+        double f4 = tale.nextDouble();
+        double sum = f1 + f2 +f3 + f4;
         System.out.println("The answer is " + sum);
         System.out.println("Have a good day.Goodbye!");
     }
